@@ -1,0 +1,147 @@
+/* styles.css */
+
+body {
+    text-align: center;
+}
+
+#box {
+    height: 200px;
+    width: 200px;
+    background: #fc3;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+}
+
+.thing {
+    height: 200px;
+    width: 200px;
+    background: #ac3;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 200px;
+    border-top-left-radius: 200px;
+}
+
+button {
+    background: #933;
+    color: white;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+body#selectors {
+    text-align: left;
+}
+
+body#events {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form input {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* -------------------
+   CAR RACR 2.0
+   ------------------- */
+
+#tagline { 
+    padding-top: 0px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+   
+
+
+#racetrack {
+    background: url('../img/oilroad3.jpg') center left repeat-x;
+    height: 430px;
+    
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.horse {
+    display: block;
+    position: relative;
+}
+
+#horse1 { top: 100px; }
+#horse2 { top: 130px; }
+
+#raceInfoBox {
+    width: 85%;
+    margin: 20px auto 0;
+    background: rgb(94, 94, 94);
+    height: 200px;
+}
+
+#raceInfoBox h2 {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    padding: 15px 0;
+}
+
+.raceInfo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.raceInfo span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#raceInfo1 {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#raceInfo2 {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="button"] {
+    background: #96a783;
+    color: white;
+    padding: 10px 20px;
+    border: solid 2px #444;
+}
+
+input#reset {
+    background: rgb(209, 206, 197);
+    color: #444;
+    border: solid 2px #444;
+}
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
