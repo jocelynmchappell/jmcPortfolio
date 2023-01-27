@@ -1,5 +1,5 @@
 body {
-    background: #333 url("./img/cutlery.jpg") center center no-repeat;
+    background: #333 url("../img/cutlery.jpg") center center no-repeat;
     background-size: 200%;
     color: rgb(93, 48, 40);
 }
